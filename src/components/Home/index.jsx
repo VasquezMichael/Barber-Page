@@ -3,7 +3,7 @@ import Hero from "../Hero";
 import AboutUsWithCarrousel from "../About-us";
 import { Home } from "./style.js";
 import OurServices from "../OurServices";
-// import OurTeam from "../OurTeam";
+import OurTeam from "../OurTeam";
 import OurJobs from "../OurJobs";
 // import Footer from "../Footer";
 const HomePage = () => {
@@ -21,12 +21,10 @@ const HomePage = () => {
       <section id="our-jobs">
         <OurJobs />
       </section>{" "}
-      {/* 
-     <section id="our-team">
+      <section id="our-team">
         <OurTeam />
       </section>{" "}
-
-
+      {/*
       <section id="footer">
         <Footer />
       </section> */}
