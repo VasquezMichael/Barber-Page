@@ -1,6 +1,6 @@
 import { Container } from "./style";
 
-const TeamInfo = () => {
+export const TeamInfo = () => {
   return (
     <Container>
       <h2>Equipo</h2>
@@ -19,5 +19,3 @@ const TeamInfo = () => {
     </Container>
   );
 };
-
-export default TeamInfo;
