@@ -18,12 +18,14 @@ const HomePage = () => {
       <section id="servicios">
         <OurServices />
       </section>{" "}
-      {/*   <section id="our-team">
-        <OurTeam />
-      </section>{" "}
       <section id="our-jobs">
         <OurJobs />
       </section>{" "}
+      {/* 
+     <section id="our-team">
+        <OurTeam />
+      </section>{" "}
+
 
       <section id="footer">
         <Footer />
