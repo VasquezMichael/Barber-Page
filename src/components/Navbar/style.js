@@ -54,7 +54,6 @@ export const Menu = styled.ul`
   width: 100%;
   justify-content: space-evenly;
   list-style: none;
-  margin-left: 50px;
   top: 80px;
   @media screen and (max-width: 690px) {
     position: absolute;
