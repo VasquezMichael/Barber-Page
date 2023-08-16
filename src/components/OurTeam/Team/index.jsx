@@ -1,6 +1,6 @@
 import { Container } from "./style";
 
-export const TeamInfo = () => {
+export const Team = () => {
   return (
     <Container>
       <h2>Equipo</h2>
