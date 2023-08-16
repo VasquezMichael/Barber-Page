@@ -14,9 +14,6 @@ export const Container = styled.div`
       opacity: 0.9;
       height: 110px;
     }
-    .Logo-Container img {
-      width: 95px;
-    }
   }
   @media screen and (max-width: 690px) {
     &.scrolled {
@@ -43,7 +40,7 @@ export const LogoContainer = styled.div`
   display: flex;
   margin-left: 30px;
   img {
-    width: 90px;
+    width: 105px;
   }
   @media screen and (max-width: 690px) {
     margin-left: 20px;
@@ -57,7 +54,7 @@ export const Menu = styled.ul`
   width: 100%;
   justify-content: space-evenly;
   list-style: none;
-  margin-right: 0px;
+  margin-left: 50px;
   top: 80px;
   @media screen and (max-width: 690px) {
     position: absolute;
@@ -74,7 +71,6 @@ export const Menu = styled.ul`
 
 export const MenuItem = styled.li`
   height: 100%;
-  /* padding: 18px; */
   font-size: 1.5rem;
   @media screen and (max-width: 690px) {
     width: 100%;

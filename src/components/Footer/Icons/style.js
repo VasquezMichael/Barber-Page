@@ -28,7 +28,7 @@ export const Container = styled.div`
     font-size: 1.8rem;
     transition: all 0.1s ease;
     transition: all 0.2s ease;
-    :hover {
+    &:hover {
       transform: scale(1.2);
       color: #fdcd52;
     }
