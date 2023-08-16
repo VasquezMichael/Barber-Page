@@ -1,12 +1,12 @@
 import { Section } from "./style";
 import { Icons } from "./Icons";
-// import Logo from "./Logo";
+import LogoImg from "./LogoImg";
 import Credits from "./Credits";
 const Footer = () => {
   return (
     <>
       <Section>
-        {/* <Logo /> */}
+        <LogoImg />
         <Icons />
         <p>vasquez.michael.steven@gmail.com</p>
         <p>© BarberShop, todos los derechos reservados</p>
