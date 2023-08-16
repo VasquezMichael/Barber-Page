@@ -5,7 +5,7 @@ import { Home } from "./style.js";
 import OurServices from "../OurServices";
 import OurTeam from "../OurTeam";
 import OurJobs from "../OurJobs";
-// import Footer from "../Footer";
+import Footer from "../Footer";
 const HomePage = () => {
   return (
     <Home>
@@ -18,16 +18,15 @@ const HomePage = () => {
       <section id="servicios">
         <OurServices />
       </section>{" "}
-      <section id="our-jobs">
-        <OurJobs />
-      </section>{" "}
       <section id="our-team">
         <OurTeam />
       </section>{" "}
-      {/*
+      <section id="our-jobs">
+        <OurJobs />
+      </section>{" "}
       <section id="footer">
         <Footer />
-      </section> */}
+      </section>
     </Home>
   );
 };
